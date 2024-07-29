@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    padding: 1.4rem 1rem ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container h1 {
+    color: rgb(39, 39, 39);
+}
+
+#rollBtn {
+    padding: 0.6rem 0.4rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0598ff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+}
+
+#rollBtn:hover {
+    opacity: 0.8;
+}
+
+#rollBtn:active {
+    opacity: 0.6;
+}
+
+#numOfDice {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 150px;
+    padding: 0.5rem 0.3rem;
+    border-radius: 4px;
+}
+.container label {
+    font-size: 1.3rem;
+    margin-right: 0.1rem;
+    font-weight: bold;
+}
+
+#dices-images img {
+    width: 100px;
+    margin: 1rem;
+}
+
+#dices-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(57, 57, 57);
+    margin: 1rem;
+}
