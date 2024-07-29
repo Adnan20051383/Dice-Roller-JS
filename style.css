@@ -35,6 +35,10 @@
     width: 150px;
     padding: 0.5rem 0.3rem;
     border-radius: 4px;
+    transition: all 0.3s ease;
+}
+#numOfDice:focus {
+    border-radius: 6px;
 }
 .container label {
     font-size: 1.3rem;
